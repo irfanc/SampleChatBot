@@ -1,6 +1,6 @@
-run rasa for GUI on port 5056:: "C:\Program Files\Python38\python.exe"  -m rasa run --m ./models --endpoints endpoints.yml --port 5056 -vv --enable-api
-run rasa action server it will run 5055 :: C:\Users\admin\AppData\Roaming\Python\Python38\Scripts\rasa.exe run actions
-run rasa shell   :: C:\Users\admin\AppData\Roaming\Python\Python38\Scripts\rasa.exe shell
-train rasa model :: C:\Users\admin\AppData\Roaming\Python\Python38\Scripts\rasa.exe run train
-MonGoDB run :: "C:\Program Files\MongoDB\Server\5.0\bin\momgod"
-ngrok for URL :: ngrok http 5055 --> 5055 is the port used by rasa server
+run rasa for GUI on port 5056, in new shell           :: "C:\Program Files\Python38\python.exe"  -m rasa run --m ./models --endpoints endpoints.yml --port 5056 -vv --enable-api
+run rasa action server it will run 5055, in new shell :: C:\Users\admin\AppData\Roaming\Python\Python38\Scripts\rasa.exe run actions
+run rasa shell, in new shell    :: C:\Users\admin\AppData\Roaming\Python\Python38\Scripts\rasa.exe shell
+train rasa model, in new shell  :: C:\Users\admin\AppData\Roaming\Python\Python38\Scripts\rasa.exe run train
+MonGoDB run in a new shell      :: "C:\Program Files\MongoDB\Server\5.0\bin\momgod"
+ngrok for URL in a new shell    :: ngrok http 5055 --> 5055 is the port used by rasa server
